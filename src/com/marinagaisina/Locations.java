@@ -6,9 +6,11 @@ import java.util.*;
 public class Locations implements Map<Integer, Location> {
     private static final Map<Integer, Location> locations = new LinkedHashMap<>();
 
-    // the static initialization block will be executed once, and that's when the locations class is loaded,
-    // we do not need to create many instances of locations. Also, another option to make sure there will be
-    // only one instance created - using a singleton design pattern
+     /*the static initialization block will be executed once, and that's when the locations class is loaded,
+     we do not need to create many instances of locations. Also, another option to make sure there will be
+     only one instance created - using a singleton design pattern
+     --- !!The static block is being executed before the main() method !!---
+      */
     static {
         /* --------USING FileReader!! Regular try/catch block ---------------
 
