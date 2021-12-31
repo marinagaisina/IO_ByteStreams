@@ -9,6 +9,8 @@ import java.util.Scanner;
          -The player should be able to type commands such as "Go West", "run South", or just "East" and the program will move to the appropriate location if there is one.
          -As at present, an attempt to move in an invalid direction should print a message and remain in the same place.
          -Single letter commands (N, W, S, E, Q) should still be available.
+
+         - SHIFTING IN JAVA! There is another main() in class ShiftInt.java. Run main() in Shifting.java in order to see how shifting works in java.
  */
 
 public class  Main {
